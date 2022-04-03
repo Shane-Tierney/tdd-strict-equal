@@ -1,0 +1,26 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "In this exercise you will be using a test driven development (TDD) approach to implement a `strictEqual()` function. The `strictEqual()` function will work the way the `===` operator does but you are not allowed to use this operator. For example, `strictEqual(5, '5')` would return `false` but `strictEqual('a', 'a')` would return `true`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js",
+    "lint": "eslint --format stylish .",
+    "lint-fix": "eslint --format stylish --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shane-Tierney/tdd-strict-equal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shane-Tierney/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/Shane-Tierney/tdd-strict-equal#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.12.0",
+    "mocha": "^9.2.2"
+  }
+}
